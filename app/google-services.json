@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141565922677",
+    "firebase_url": "https://obs-a7501.firebaseio.com",
+    "project_id": "obs-a7501",
+    "storage_bucket": "obs-a7501.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141565922677:android:b562e94bbdd8f7aa",
+        "android_client_info": {
+          "package_name": "com.example.obs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141565922677-q912bmoctdb37uljtf2abusfbo5cfh23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAviTsKPtTwHyaAWZsqF0XBxMJRBkHAtHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141565922677-q912bmoctdb37uljtf2abusfbo5cfh23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

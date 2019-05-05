@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookDetails">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Book Details"
+        android:textColor="@color/textColor"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/book_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint=" Book Name"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Class_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint=" Class Name "
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+
+        />
+
+        <TextView
+            android:id="@+id/auther_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint=" Auther Name"
+            android:textColor="@color/textColor"
+            android:textSize="30dp" />
+
+        <TextView
+        android:id="@+id/Description1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint=" Description1"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+
+        />
+
+        <TextView
+        android:id="@+id/Locaation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint=" Location"
+        android:textColor="@color/textColor"
+        android:textSize="30dp"
+
+        />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
